@@ -8,132 +8,139 @@
   </head>
   <body>
     <header>
-      <h1>Joel Tates - <span> Desarrolador Frontend </span>😎</h1>
+      <nav class="navegacion-principal contenedor">
+        <div class="logo__fade-enter">
+          <a href="/" aria-label="home"> 
+            <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img">
+            </svg>
+          </a> 
+        </div>
+        <div class="nav__Stylelinked">
+          <ol>
+            <li class="fadedown-enter-done" style="transition-delay: 0ms;">
+              <a href="/#about">
+                ::before
+                "Sobre Mi"
+              </a>
+            </li>
+            <li class="fadedown-enter-done" style="transition-delay: 100ms;">
+              <a href="/#projects">
+                ::before
+                "Trabajos"
+              </a>
+            </li>
+            <li class="fadedown-enter-done" style="transition-delay: 200ms;">
+              <a href="/#contact">
+                ::before
+                "Contactos"
+              </a>
+            </li>
+          </ol>
+        </div>
+        <div class="menu__Styledmenu">
+          <div>
+            <button aria-label="Menu" class="menu__StyledButton">
+              <div class="ham-box">
+                <div class="ham-box-inner"> </div>
+              </div>
+            </button>
+            <aside aria-hidden="true" tabindex="-1" class="menu__StyledSidebar">
+              <nav>
+                <ol>
+                  <li>
+                    <a href="/#about"> Sobre Mi </a>
+                  </li>                 
+                  <li>
+                    <a href="/#projects"> Trabajos </a>
+                  </li>
+                  <li>
+                    <a href="/#contact"> Contactos </a>
+                  </li>
+                </ol>
+                <a href="/resume.pdf" class="resume-link"> CV </a>
+              </nav>
+            </aside>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <div class="nav-bg">
-      <nav class="navegacion-principal contenedor">
-        <a href="#"> Inicio </a>
-        <a href="#"> Sobre mi </a>
-	      <a href="#"> Proyectos </a>
-        <a href="#"> Contactos </a>
-      </nav>
-    </div>
+    <div id="content">
+      <main class="Informacion" id="Principal">
+        <section class="hero" id="Entrada">
+          <div class="text">
+            <div class="content_hero" style="transition-delay: 100ms;">
+              <h1>Hola, mi nombre es</h2>
+            </div>
+            <div class="content_hero" style="transition-delay: 200ms;">
+              <h2>Joel Tates</h2>
+            </div>
+            <div class="content_hero" style="transition-delay: 300ms;">
+              <h3>Bienvenido a mi mundo !</h3>
+            </div>
+            <div class="content_hero" style="transition-delay: 400ms;">
+              <p>	  
+                Soy un estudiante de tecnologia de la Escuela Politecnica Nacional,<br>
+                graduado de la carrera de Desarrollo de Software, me especializo en el <br>
+                desarrollo Frontend.
+              </p>
+            </div>
+          </div>
+        </section>
 
-    <div>
-      <section class="hero" id="Entrada">
-        <div class="contenido_hero">
-          <h2>Hola, mi nombre es</h2>
-        </div>
-        <div class="contenido_hero">
-          <h2>Joel Tates</h2>
-        </div>
-        <div class="contenido_hero">
-          <h3>Bienvenido a mi mundo !</h3>
-        </div>
-        <div class="contenido_hero">
-          <p>	  
-	          Soy un estudiante de tecnologia de la Escuela Politecnica Nacional,<br>
-	          graduado de la carrera de Desarrollo de Software, me especializo en el <br>
-	          desarrollo Frontend.
-	        </p>
-        </div>
-      </section>
-    </div>
-    
-    <div class="contenido-hero">            
-        <div class="ubicacion">
-          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512"><path fill="currentColor" d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg>
-        </div>
-        <div>
-          <a href="#" class="Boton"> Contactame </a>
-        </div>    
-    </div>
-
-    <div class="SobreMi">
-      <div> 
-	      <section>
+        <section id="about" class="about__StyledAboutSection">
 	        <article class="Informacion">
-	          <h2> Sobre Mi </h2>
+	          <h2 class="numbered-heading"> Sobre Mi </h2>
 	          <p>
 	            Mi nombre es Joel Tates, soy un joven Ecuatoriano <br>
 	            Que sabe sobre el desarrollo Frontend en varias plataformas
 	          </p>
 	        </article>
-	        <article class="Informacion-cursos">
-	          <h3> Tecnologis que uso </h3>
-	          <ul>
-	            <li> CSS </li>
-	            <li> HTML </li>
-	            <li> JAVASCRIPT </li>
-	          </ul>
+          <article>
+            <div class="inner">
+              <div class="about__StyledText">
+                <div>
+                  <p>
+                    Hola, me llamo Joel Tates y comenze en el Desarrollo Frontend gracias a los conocimientos impartidos en mi Universidad
+                    me di cuenta que me interesa mucho este mundo porque captas a las personas con tus creaciones. Por ello comenze a especializzarme
+                    mucho en CSS, HTML y JAVASCRIPT.
+                  </p>
+                  <p> 
+                    Recientemente acabe de cursar la suficiencia en ingles, por aqui mi   
+                    <a href="" rel="noopener noreferrer" target="_blank"> certificado </a> 
+                    , y gracias al ingles puedo aprender muchas tecnologias nuevas e implemnetarlas en mis proyectos
+                  </p>
+                  <p> 
+                    Aqui estan las <b> tecnologias </b> con las cuales trabajo de forma regular:
+                  </p>
+                </div>
+                <ul class="skills-list">
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>Java SE</li>
+                  <li>C++</li>
+                  <li>C#</li>
+                  <li>React</li>
+                </ul>
+              </div>
+            </div>
           </article>
 	      </section>
-      </div>
+
+        <section id="projects" class="projects__StyledProjects">
+          <h3>DIseño de interfaces</h3>
+          <div class="iconos"></div>
+            <p>Texto de diseño de interfaces</p>
+        </section>
+
+        <section id="contact" class="contact__StyledContacts">
+        </section>
+      </main>
     </div>
-
-    <div class="servicios">
-	    <h2> Proyectos </h2>
-      <section class="Trabajos">
-        <h3>DIseño de interfaces</h3>
-        <div class="iconos"></div>
-        <p>Texto de diseño de interfaces</p>
-      </section>
-
-      <section class="Trabajos">
-        <h3>Desarrollo de aplicaciones web</h3>
-        <div class="iconos"></div>
-        <p>Texto de desarrollo de aplicaciones web</p>
-      </section>
-
-      <section class="Trabajos">
-        <h3>Desarrollo de aplicaciones mobiles</h3>
-        <div class="iconos"></div>
-        <p>Texto de desarrollo de aplicaciones mobiles</p>
-      </section>
-    </div>
-
-    <main class="Informacion" id="Principal">
-      <section class="" id="contacto">
-        <h2>Formularios de contacto</h2>
-        <form class="Formulario" action="index.html" method="post">
-          <fieldset>
-            <legend>Contactame llenando los campos</legend>
-            <div class="Contenedor-campos">
-              <div class="campo">
-                <label> Nombre </label>
-                <input type="text" placeholder="tu nombre" class="input-text" />
-              </div>
-
-              <div class="campo">
-                <label> Telefono </label>
-                <input
-                  type="tel"
-                  placeholder="tu telefono"
-                  class="input-text"
-                />
-              </div>
-
-              <div class="campo">
-                <label> Correo </label>
-                <input type="email" placeholder="tu email" class="input-text" />
-              </div>
-
-              <div class="campo">
-                <label> Mensaje </label>
-                <textarea class="input-text"></textarea>
-              </div>
-            </div>
-            <div class="alinear-derecha flex">
-              <input type="submit" value="Enviar" class="boton-w-sm-100" />
-            </div>
-          </fieldset>
-        </form>
-      </section>
-    </main>
 
     <footer class="footer">
       <p> DIseñado y construido por Joel Tates </p>
     </footer>
+
   </body>
 </html>
